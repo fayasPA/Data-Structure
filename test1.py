@@ -1,29 +1,20 @@
+# a = [20.87,40.51,14.254]
+# # print(round(a))
+# b = a.count
+# s = '{a}'
+# c = 'hi {a:a}'.format(a[0])
+# print(c)
 
-def search(node,data):
-        if node.key == data:
-            return True
-        if data > node.key:
-                if node.right:
-                    search(node.right,data)
-                else:
-                    return False
-        if data < node.key:
-            if node.left:
-                search(node.left,data)
-            else:
-                 return False
-search(root_node,search_item)
+# highest = 97
+# grade_thresholds = []
+# grade_threshold = 41
+# val = int((highest - 40) / 4)
+# while grade_threshold < highest:
+#     grade_thresholds.append(grade_threshold)
+#     grade_threshold = grade_threshold + val
+# print(grade_thresholds)
 
-
-def DFS(x,graph):
-     visited = set()
-     stack = []
-     stack.append(x)
-     while stack:
-          current = stack.pop()
-          visited.add(current)
-          for i in graph[current]:
-               stack.append(i)
-               
-
-DFS('A',{'A':['B','C'],'B':})
+a = [1,5,2]
+print(a.pop(1))
+a[1] = 23
+print(a)

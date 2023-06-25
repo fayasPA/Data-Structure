@@ -33,7 +33,7 @@ class BinarySearchTree:
             if self.lchild:
                 self.lchild.search(data)
             else:
-                print("Not Found")                
+                print("Not Found")
         if data > self.key:
             if self.rchild:
                 self.rchild.search(data)

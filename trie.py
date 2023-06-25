@@ -15,6 +15,7 @@ class Trie:
             if chara not in cur.children:
                 cur.children[chara] = TrieNode()
             cur = cur.children[chara]
+            print("current",cur.children)
         cur.endOfWord = True
 
     def search(self, word: str):
@@ -35,4 +36,4 @@ class Trie:
     
 _trie = Trie()
 _trie.insert("fayas")
-print(_trie.startsWith("a"))
+# print(_trie.startsWith("a"))

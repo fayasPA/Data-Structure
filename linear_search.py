@@ -10,7 +10,6 @@
 #     print(search," elment found at pos ",counter)
 # else:
 #     print(search," elment not found")
-    
 
 arr =[10, 20, 30, 50, 60, 80, 100, 110, 130, 170]
 f = 0
